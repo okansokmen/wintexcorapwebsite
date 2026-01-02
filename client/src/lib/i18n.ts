@@ -81,6 +81,19 @@ const translations = {
     'cta.demo': 'Ücretsiz Demo İste',
     'cta.contact': 'Bize Ulaşın',
     
+    // About Page
+    'about.title': 'Hakkımızda',
+    'about.subtitle': 'WinTex Üretim, Planlama ve Takip Programı',
+    'about.intro': 'WinTex, tasarım ve numune talebinden başlayarak, satın alma ve fason tedarik süreçlerindeki maliyetlendirme farklılıklarına, üretim planlama ve takibine, barkod tabanlı envanter ve kalite kontrol sistemlerine kadar tüm üretim yaşam döngüsünü ele almaktadır.',
+    'about.system.title': 'WinTex Üretim Planlama ve Takip Sistemi',
+    'about.system.desc': 'WinTex, çorap ve tekstil üretimi için tasarlanmış, numune talebinden son sevkiyata kadar tüm süreçleri kapsayan entegre bir planlama ve takip sistemidir. Sistem, barkodlu takip, mobil entegrasyon ve detaylı raporlama gibi modern teknolojileri kullanarak operasyonel verimliliği artırmayı hedefler.',
+    'about.capabilities.title': 'Sistemin Genel Yetenekleri ve Teknolojileri',
+    'about.capabilities.desc': 'WinTex, modüler yapısı ve geniş fonksiyon yelpazesi ile uçtan uca bir çözüm sunar.',
+    'about.capabilities.core': 'Temel Yetenekler',
+    'about.capabilities.tech': 'Kullanılan Teknolojiler',
+    'about.flow.title': 'Akış Şeması ve Modüller Arası İlişki',
+    'about.flow.desc': 'WinTex sistemi, üretim sürecindeki adımları mantıksal bir akış şeması içinde birbirine bağlar.',
+    
     // Videos Page
     'videos.title': 'Tanıtım Filmleri',
     'videos.subtitle': 'Wintex Çorap yazılımının özelliklerini ve kullanımını videolarımızla keşfedin.',
@@ -174,6 +187,19 @@ const translations = {
     'cta.desc': 'Increase your efficiency with Wintex Sock software, minimize errors.',
     'cta.demo': 'Request Free Demo',
     'cta.contact': 'Contact Us',
+    
+    // About Page
+    'about.title': 'About Us',
+    'about.subtitle': 'WinTex Production, Planning and Tracking Program',
+    'about.intro': 'WinTex covers the entire production lifecycle, starting from design and sample requests to costing differences in purchasing and subcontracting processes, production planning and tracking, barcode-based inventory, and quality control systems.',
+    'about.system.title': 'WinTex Production Planning and Tracking System',
+    'about.system.desc': 'WinTex is an integrated planning and tracking system designed for sock and textile production, covering all processes from sample request to final shipment. The system aims to increase operational efficiency by using modern technologies such as barcode tracking, mobile integration, and detailed reporting.',
+    'about.capabilities.title': 'General Capabilities and Technologies of the System',
+    'about.capabilities.desc': 'WinTex offers an end-to-end solution with its modular structure and wide range of functions.',
+    'about.capabilities.core': 'Core Capabilities',
+    'about.capabilities.tech': 'Technologies Used',
+    'about.flow.title': 'Flow Chart and Relationship Between Modules',
+    'about.flow.desc': 'The WinTex system connects the steps in the production process within a logical flow chart.',
     
     // Videos Page
     'videos.title': 'Promotional Videos',
