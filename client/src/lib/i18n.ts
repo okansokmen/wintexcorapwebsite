@@ -80,6 +80,20 @@ const translations = {
     'cta.demo': 'Ücretsiz Demo İste',
     'cta.contact': 'Bize Ulaşın',
     
+    // Contact Page
+    'contact.title': 'İletişim',
+    'contact.subtitle': 'Sorularınız için bize ulaşın. Tekstil ERP yazılımı ve çorap üretim takip yazılımı hakkında bilgi alın.',
+    'contact.back': 'Ana Sayfaya Dön',
+    'contact.info.title': 'İletişim Bilgileri',
+    'contact.info.person': 'Okan Sökmen',
+    'contact.info.company': 'YaGe Yazılım Geliştirme Bilgisayar',
+    'contact.form.title': 'Bize Yazın',
+    'contact.form.name': 'Ad Soyad',
+    'contact.form.email': 'E-posta Adresi',
+    'contact.form.phone': 'Telefon',
+    'contact.form.message': 'Mesajınız',
+    'contact.form.submit': 'Gönder',
+    
     // Footer
     'footer.rights': 'Tüm hakları saklıdır.',
   },
@@ -153,6 +167,20 @@ const translations = {
     'cta.desc': 'Increase your efficiency with Wintex Sock software, minimize errors.',
     'cta.demo': 'Request Free Demo',
     'cta.contact': 'Contact Us',
+    
+    // Contact Page
+    'contact.title': 'Contact',
+    'contact.subtitle': 'Reach out for your questions. Get information about textile ERP software and sock production tracking software.',
+    'contact.back': 'Back to Home',
+    'contact.info.title': 'Contact Information',
+    'contact.info.person': 'Okan Sökmen',
+    'contact.info.company': 'YaGe Software Development Computer',
+    'contact.form.title': 'Write to Us',
+    'contact.form.name': 'Name',
+    'contact.form.email': 'Email address',
+    'contact.form.phone': 'Phone',
+    'contact.form.message': 'Message',
+    'contact.form.submit': 'Contact Us',
     
     // Footer
     'footer.rights': 'All rights reserved.',
