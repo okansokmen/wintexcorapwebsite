@@ -46,6 +46,9 @@ const translations = {
     'modules.cost.desc': 'Gerçek zamanlı maliyet takibi ile karlılığınızı artırın.',
     'modules.quality': 'Kalite Kontrol',
     'modules.quality.desc': 'Üretim hatalarını minimize edin, kalite standartlarını koruyun.',
+    'modules.viewAll': 'Tüm Modülleri İncele',
+    'modules.explore': 'Keşfet',
+    'why.description': 'Neden Wintex Çorap?',
 
     // Reports Section
     'reports.title': 'Gelişmiş Raporlama',
@@ -192,6 +195,9 @@ const translations = {
     'modules.cost.desc': 'Increase your profitability with real-time cost tracking.',
     'modules.quality': 'Quality Control',
     'modules.quality.desc': 'Minimize production errors, maintain quality standards.',
+    'modules.viewAll': 'View All Modules',
+    'modules.explore': 'Explore',
+    'why.description': 'Why Wintex Sock?',
 
     // Reports Section
     'reports.title': 'Advanced Reporting',
