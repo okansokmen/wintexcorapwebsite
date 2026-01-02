@@ -17,9 +17,9 @@ export default function Header() {
   const navItems = [
     { key: 'nav.about', href: '/about' },
     { key: 'nav.journey', href: '/digital-journey' },
-    { key: 'nav.features', href: '#features' },
-    { key: 'nav.modules', href: '#modules' },
-    { key: 'nav.reports', href: '#reports' },
+    { key: 'nav.features', href: '/digital-journey' },
+    { key: 'nav.modules', href: '/' },
+    { key: 'nav.reports', href: '/' },
     { key: 'nav.videos', href: '/videos' },
     { key: 'nav.contact', href: '/contact' },
   ];
@@ -41,13 +41,13 @@ export default function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.key}
               href={item.href}
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
               {t(item.key)}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -82,14 +82,14 @@ export default function Header() {
         <div className="md:hidden border-t bg-background p-4 space-y-4">
           <nav className="flex flex-col gap-4">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.key}
                 href={item.href}
                 className="text-sm font-medium text-foreground hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t(item.key)}
-              </a>
+              </Link>
             ))}
           </nav>
           <div className="flex items-center gap-4 pt-4 border-t">
