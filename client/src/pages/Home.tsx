@@ -3,6 +3,7 @@ import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
 import Modules from "@/components/sections/Modules";
 import Reports from "@/components/sections/Reports";
+import FAQ from "@/components/sections/FAQ";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
@@ -56,6 +57,8 @@ export default function Home() {
         
         <Reports />
         
+        <FAQ />
+
         {/* CTA Section */}
         <section className="py-24 bg-primary text-primary-foreground relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-10 mix-blend-overlay" />

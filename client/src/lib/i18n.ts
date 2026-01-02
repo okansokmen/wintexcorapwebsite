@@ -16,6 +16,7 @@ const translations = {
     'nav.modules': 'Modüller',
     'nav.reports': 'Raporlar',
     'nav.contact': 'İletişim',
+    'nav.faq': 'SSS',
     'nav.demo': 'Demo İste',
     'nav.requestDemo': 'Demo İste',
     'nav.about': 'Hakkımızda',
@@ -133,6 +134,20 @@ const translations = {
     'contact.form.message': 'Mesajınız',
     'contact.form.submit': 'Gönder',
     'contact.form.success': 'Mesajınız başarıyla gönderildi!',
+
+    // FAQ
+    'faq.title': 'Sıkça Sorulan Sorular',
+    'faq.subtitle': 'Wintex Çorap hakkında merak ettiğiniz her şey',
+    'faq.q1': 'Program barkod takibini destekliyor mu?',
+    'faq.a1': 'Evet, Wintex Çorap hammadde girişinden ürün sevkiyatına kadar tam barkod desteği sunar. Tüm hareketleri el terminalleri veya barkod okuyucularla takip edebilirsiniz.',
+    'faq.q2': 'Maliyet hesaplama nasıl yapılıyor?',
+    'faq.a2': 'Sistem; hammadde fiyatları, işçilik, genel giderler ve döviz kurlarını dikkate alarak maliyetleri otomatik hesaplar. Reçete bazlı hesaplama ile dinamik maliyetlendirme sunar.',
+    'faq.q3': 'Muhasebe programlarıyla entegre çalışır mı?',
+    'faq.a3': 'Evet, Wintex popüler muhasebe yazılımlarıyla (Logo, Mikro, Netsis vb.) entegre olabilir. Fatura ve cari hareketler otomatik olarak aktarılır.',
+    'faq.q4': 'Kurulum ve eğitim süreci ne kadar sürer?',
+    'faq.a4': 'Firmanızın büyüklüğüne bağlı olarak kurulum ve temel eğitim süreci genellikle 2-4 hafta içinde tamamlanır. Uzman ekibimiz yerinde ve uzaktan destek sağlar.',
+    'faq.q5': 'Program fason üretim takibi için uygun mu?',
+    'faq.a5': 'Kesinlikle. Fasona giden ve gelen ürünleri takip edebilir, fason yerindeki stokları yönetebilir ve fire oranlarını izleyebilirsiniz.',
   },
   en: {
     // Navigation
@@ -141,6 +156,7 @@ const translations = {
     'nav.modules': 'Modules',
     'nav.reports': 'Reports',
     'nav.contact': 'Contact',
+    'nav.faq': 'FAQ',
     'nav.demo': 'Request Demo',
     'nav.requestDemo': 'Request Demo',
     'nav.about': 'About Us',
@@ -258,6 +274,20 @@ const translations = {
     'contact.form.message': 'Your Message',
     'contact.form.submit': 'Send',
     'contact.form.success': 'Your message has been sent successfully!',
+
+    // FAQ
+    'faq.title': 'Frequently Asked Questions',
+    'faq.subtitle': 'Everything you need to know about Wintex Socks',
+    'faq.q1': 'Does the program support barcode tracking?',
+    'faq.a1': 'Yes, Wintex Socks provides full barcode support from raw material entry to product shipment. You can track all movements with barcode readers.',
+    'faq.q2': 'How is cost calculation done?',
+    'faq.a2': 'The system automatically calculates costs by taking into account raw material prices, labor, overheads, and exchange rates. It offers dynamic costing with recipe-based calculation.',
+    'faq.q3': 'Does it integrate with accounting software?',
+    'faq.a3': 'Yes, Wintex can integrate with popular accounting software (Logo, Mikro, Netsis, etc.). Invoices and current account movements are transferred automatically.',
+    'faq.q4': 'How long does the installation and training process take?',
+    'faq.a4': 'Depending on the size of your company, the installation and basic training process is usually completed within 2-4 weeks. Our expert team provides on-site and remote support.',
+    'faq.q5': 'Is the program suitable for contract manufacturing?',
+    'faq.a5': 'Absolutely. You can track products sent to and received from contract manufacturers, manage stock at contract locations, and monitor waste rates.',
   }
 };
 
