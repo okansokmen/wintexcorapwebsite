@@ -3,23 +3,43 @@ import { useTheme } from "@/contexts/ThemeContext";
 import { useI18n } from "@/lib/i18n";
 import { Globe, Menu, Moon, Sun, X } from "lucide-react";
 import { useState } from "react";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 
 export default function Header() {
   const { theme, toggleTheme } = useTheme();
   const { language, setLanguage, t } = useI18n();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [location, setLocation] = useLocation();
 
   const toggleLanguage = () => {
     setLanguage(language === 'tr' ? 'en' : 'tr');
+  };
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith('#')) {
+      e.preventDefault();
+      if (location !== '/') {
+        setLocation('/');
+        setTimeout(() => {
+          const element = document.querySelector(href);
+          element?.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      } else {
+        const element = document.querySelector(href);
+        element?.scrollIntoView({ behavior: 'smooth' });
+      }
+      setIsMenuOpen(false);
+    } else {
+      setIsMenuOpen(false);
+    }
   };
 
   const navItems = [
     { key: 'nav.about', href: '/about' },
     { key: 'nav.journey', href: '/digital-journey' },
     { key: 'nav.features', href: '/digital-journey' },
-    { key: 'nav.modules', href: '/' },
-    { key: 'nav.reports', href: '/' },
+    { key: 'nav.modules', href: '#modules' },
+    { key: 'nav.reports', href: '#reports' },
     { key: 'nav.videos', href: '/videos' },
     { key: 'nav.contact', href: '/contact' },
   ];
@@ -41,13 +61,24 @@ export default function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
-            <Link
-              key={item.key}
-              href={item.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-            >
-              {t(item.key)}
-            </Link>
+            item.href.startsWith('#') ? (
+              <a
+                key={item.key}
+                href={item.href}
+                onClick={(e) => handleNavClick(e, item.href)}
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary cursor-pointer"
+              >
+                {t(item.key)}
+              </a>
+            ) : (
+              <Link
+                key={item.key}
+                href={item.href}
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              >
+                {t(item.key)}
+              </Link>
+            )
           ))}
         </nav>
 
@@ -82,14 +113,25 @@ export default function Header() {
         <div className="md:hidden border-t bg-background p-4 space-y-4">
           <nav className="flex flex-col gap-4">
             {navItems.map((item) => (
-              <Link
-                key={item.key}
-                href={item.href}
-                className="text-sm font-medium text-foreground hover:text-primary"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                {t(item.key)}
-              </Link>
+              item.href.startsWith('#') ? (
+                <a
+                  key={item.key}
+                  href={item.href}
+                  onClick={(e) => handleNavClick(e, item.href)}
+                  className="text-sm font-medium text-foreground hover:text-primary cursor-pointer"
+                >
+                  {t(item.key)}
+                </a>
+              ) : (
+                <Link
+                  key={item.key}
+                  href={item.href}
+                  className="text-sm font-medium text-foreground hover:text-primary"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {t(item.key)}
+                </Link>
+              )
             ))}
           </nav>
           <div className="flex items-center gap-4 pt-4 border-t">
