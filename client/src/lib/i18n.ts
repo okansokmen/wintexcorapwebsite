@@ -15,6 +15,7 @@ const translations = {
     'nav.features': 'Özellikler',
     'nav.modules': 'Modüller',
     'nav.reports': 'Raporlar',
+    'nav.videos': 'Videolar',
     'nav.blog': 'Blog',
     'nav.contact': 'İletişim',
     'nav.requestDemo': 'Demo İste',
@@ -80,6 +81,11 @@ const translations = {
     'cta.demo': 'Ücretsiz Demo İste',
     'cta.contact': 'Bize Ulaşın',
     
+    // Videos Page
+    'videos.title': 'Tanıtım Filmleri',
+    'videos.subtitle': 'Wintex Çorap yazılımının özelliklerini ve kullanımını videolarımızla keşfedin.',
+    'videos.watch': 'İzle',
+    
     // Contact Page
     'contact.title': 'İletişim',
     'contact.subtitle': 'Sorularınız için bize ulaşın. Tekstil ERP yazılımı ve çorap üretim takip yazılımı hakkında bilgi alın.',
@@ -103,6 +109,7 @@ const translations = {
     'nav.features': 'Features',
     'nav.modules': 'Modules',
     'nav.reports': 'Reports',
+    'nav.videos': 'Videos',
     'nav.blog': 'Blog',
     'nav.contact': 'Contact',
     'nav.requestDemo': 'Request Demo',
@@ -167,6 +174,11 @@ const translations = {
     'cta.desc': 'Increase your efficiency with Wintex Sock software, minimize errors.',
     'cta.demo': 'Request Free Demo',
     'cta.contact': 'Contact Us',
+    
+    // Videos Page
+    'videos.title': 'Promotional Videos',
+    'videos.subtitle': 'Discover the features and usage of Wintex Sock software with our videos.',
+    'videos.watch': 'Watch',
     
     // Contact Page
     'contact.title': 'Contact',
