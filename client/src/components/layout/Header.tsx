@@ -16,6 +16,7 @@ export default function Header() {
 
   const navItems = [
     { key: 'nav.about', href: '/about' },
+    { key: 'nav.journey', href: '/digital-journey' },
     { key: 'nav.features', href: '#features' },
     { key: 'nav.modules', href: '#modules' },
     { key: 'nav.reports', href: '#reports' },

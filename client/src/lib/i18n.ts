@@ -11,72 +11,57 @@ interface I18nState {
 const translations = {
   tr: {
     // Navigation
-    'nav.about': 'Hakkımızda',
+    'nav.home': 'Ana Sayfa',
     'nav.features': 'Özellikler',
     'nav.modules': 'Modüller',
     'nav.reports': 'Raporlar',
-    'nav.videos': 'Videolar',
-    'nav.blog': 'Blog',
     'nav.contact': 'İletişim',
+    'nav.demo': 'Demo İste',
     'nav.requestDemo': 'Demo İste',
-    'nav.getStarted': 'Başlayın',
-    
-    // Hero
+    'nav.about': 'Hakkımızda',
+    'nav.videos': 'Videolar',
+    'nav.journey': 'Dijital Yolculuk',
+
+    // Hero Section
+    'hero.badge': 'Wintex Çorap v2.0',
     'hero.title': 'Çorap Üretiminde Dijital Dönüşüm',
-    'hero.subtitle': 'Wintex Çorap Üretim Planlama ve Takip Sistemi',
+    'hero.desc': 'İplikten sevkiyata, tüm çorap üretim süreçlerinizi tek bir platformda yönetin. Verimliliği artırın, maliyetleri düşürün.',
     'hero.description': 'İplikten sevkiyata, tüm çorap üretim süreçlerinizi tek bir platformda yönetin. Verimliliği artırın, maliyetleri düşürün.',
+    'hero.cta': 'Hemen Başlayın',
     'hero.cta.primary': 'Hemen Başlayın',
+    'hero.learn_more': 'Detaylı Bilgi',
     'hero.cta.secondary': 'Detaylı Bilgi',
-    
-    // Journey
-    'journey.title': 'Bir Çorabın Yolculuğu: İplikten Sevkiyata',
-    'journey.description': 'Wintex ile üretiminizin her aşamasını kontrol altına alın.',
-    
-    // Why Wintex
-    'why.title': 'Neden Wintex Çorap?',
-    'why.description': 'Çorap üretimine özel geliştirilmiş güçlü özellikler.',
-    
-    // Modules
-    'modules.title': 'Kapsamlı Modül Yapısı',
-    'modules.viewAll': 'Tüm Modülleri İncele',
-    'modules.explore': 'İncele',
-    
-    'module.sample.title': 'Numune ve Modelhane',
-    'module.sample.desc': 'Numune süreçlerini hızlandırın, maliyetleri düşürün.',
-    
-    'module.planning.title': 'Planlama ve Satın Alma',
-    'module.planning.desc': 'İplik ihtiyacını otomatik hesaplayın, stokları optimize edin.',
-    
-    'module.production.title': 'Üretim Takibi',
-    'module.production.desc': 'Örme makinelerini anlık izleyin, verimliliği artırın.',
-    
-    'module.costing.title': 'Maliyet Analizi',
-    'module.costing.desc': 'Gerçekleşen maliyetleri anlık görün, kârlılığı yönetin.',
-    
-    'module.warehouse.title': 'Depo ve Stok Yönetimi',
-    'module.warehouse.desc': 'Barkodlu takip ile kayıpları önleyin, stok doğruluğunu artırın.',
-    
-    'module.shipment.title': 'Sevkiyat ve Lojistik',
-    'module.shipment.desc': 'Hatalı sevkiyatı önleyin, müşteri memnuniyetini artırın.',
-    
-    // Reports
-    'reports.title': 'Güçlü Raporlama Altyapısı',
-    'reports.viewAll': 'Tüm Raporları İncele',
-    
-    'report.cost.title': 'Gerçekleşen Maliyet Analizi',
-    'report.cost.desc': 'Planlanan ve gerçekleşen maliyetleri kalem kalem karşılaştırın.',
-    
-    'report.performance.title': 'Tedarikçi Performans Karnesi',
-    'report.performance.desc': 'Tedarikçilerinizi kalite ve termin performansına göre değerlendirin.',
-    
-    'report.shipment.title': 'Görsel Sevkiyat Planlama',
-    'report.shipment.desc': 'Siparişlerinizi model resimleriyle planlayın.',
-    
-    // FAQ
-    'faq.title': 'Sıkça Sorulan Sorular',
-    
-    // CTA
-    'cta.title': 'Üretim Süreçlerinizi Dijitalleştirmeye Hazır mısınız?',
+    'hero.stat1': '%30 Verimlilik Artışı',
+    'hero.stat2': '%100 Stok Doğruluğu',
+
+    // Modules Section
+    'modules.title': 'Kapsamlı Modüller',
+    'modules.subtitle': 'Üretiminizin her aşaması için özelleştirilmiş çözümler',
+    'modules.sample': 'Numune Yönetimi',
+    'modules.sample.desc': 'Numune taleplerini, reçeteleri ve maliyetleri tek ekrandan yönetin.',
+    'modules.planning': 'Üretim Planlama',
+    'modules.planning.desc': 'Makine parkurunuzu verimli planlayın, darboğazları önleyin.',
+    'modules.production': 'Üretim Takip',
+    'modules.production.desc': 'Barkodlu sistem ile anlık üretim takibi ve performans analizi.',
+    'modules.inventory': 'Stok Yönetimi',
+    'modules.inventory.desc': 'İplik, aksesuar ve mamul stoklarını hatasız yönetin.',
+    'modules.cost': 'Maliyet Analizi',
+    'modules.cost.desc': 'Gerçek zamanlı maliyet takibi ile karlılığınızı artırın.',
+    'modules.quality': 'Kalite Kontrol',
+    'modules.quality.desc': 'Üretim hatalarını minimize edin, kalite standartlarını koruyun.',
+
+    // Reports Section
+    'reports.title': 'Gelişmiş Raporlama',
+    'reports.subtitle': 'Veriye dayalı kararlar almanızı sağlayan detaylı raporlar',
+    'reports.view': 'Raporu İncele',
+    'reports.download': 'İndir',
+
+    // Footer
+    'footer.desc': 'Çorap üreticileri için geliştirilmiş, uçtan uca üretim takip ve planlama yazılımı.',
+    'footer.rights': 'Tüm hakları saklıdır.',
+
+    // CTA Section
+    'cta.title': 'Üretiminizi Dijitalleştirmeye Hazır mısınız?',
     'cta.desc': 'Wintex Çorap yazılımı ile verimliliğinizi artırın, hataları minimize edin.',
     'cta.demo': 'Ücretsiz Demo İste',
     'cta.contact': 'Bize Ulaşın',
@@ -99,6 +84,28 @@ const translations = {
     'videos.subtitle': 'Wintex Çorap yazılımının özelliklerini ve kullanımını videolarımızla keşfedin.',
     'videos.watch': 'İzle',
     
+    // Digital Journey Page
+    'journey.title': 'Bir Ürünün Dijital Yolculuğu',
+    'journey.subtitle': 'WinTex ile Fikirden Müşteriye Tekstil Süreç Yönetimi',
+    'journey.roadmap.title': 'Yol Haritamız: Entegre Bir Süreç',
+    'journey.roadmap.desc': 'Bir ürünün hayat döngüsünü, dört ana dijital kilometre taşı üzerinden takip ediyoruz.',
+    'journey.step1.title': '1. Fikir & Tasarım',
+    'journey.step1.desc': 'Yaratıcılığın dijitalleşmesi.',
+    'journey.step2.title': '2. Maliyet & Tedarik',
+    'journey.step2.desc': 'Veriye dayalı stratejik kararlar.',
+    'journey.step3.title': '3. Üretim & Kalite',
+    'journey.step3.desc': 'Sahada tam kontrol ve şeffaflık.',
+    'journey.step4.title': '4. Paketleme & Sevkiyat',
+    'journey.step4.desc': 'Kusursuz operasyon ve izlenebilirlik.',
+    'journey.techsheet.title': 'Her Şey Bir Fikirle Başlar: Dijital Teknik Föy Oluşturma',
+    'journey.techsheet.desc': 'Tasarım bölümü, trend analizleri ve Ürün Yönetimi onayı sonrası, modelin tüm DNA\'sını içeren Model İstek Formu\'nu (Teknik Föy) WinTex üzerinde oluşturur. Bu form, sürecin geri kalanı için tek gerçeklik kaynağı haline gelir.',
+    'journey.strategy.title': 'Stratejik Kavşak: Fason Üretim mi, Komple Satın Alma mı?',
+    'journey.strategy.desc': 'Teknik Föy tamamlandıktan sonra Ürün Yöneticisi, modelin üretim stratejisine karar verir. WinTex, bu kararı veriye dayalı olarak almayı sağlayacak altyapıyı sunar.',
+    'journey.production.title': 'Üretim ve Kalite Kontrol',
+    'journey.production.desc': 'Gantt şeması ile makine planlaması yapılır, barkodlu takip sistemi ile üretim her aşamada izlenir.',
+    'journey.shipping.title': 'Paketleme ve Sevkiyat',
+    'journey.shipping.desc': 'Ürünler son kontrolden geçer, çeki listeleri oluşturulur ve sevkiyat planlanır.',
+
     // Contact Page
     'contact.title': 'İletişim',
     'contact.subtitle': 'Sorularınız için bize ulaşın. Tekstil ERP yazılımı ve çorap üretim takip yazılımı hakkında bilgi alın.',
@@ -106,84 +113,68 @@ const translations = {
     'contact.info.title': 'İletişim Bilgileri',
     'contact.info.person': 'Okan Sökmen',
     'contact.info.company': 'YaGe Yazılım Geliştirme Bilgisayar',
+    'contact.info.address': 'İstanbul, Türkiye',
     'contact.form.title': 'Bize Yazın',
-    'contact.form.name': 'Ad Soyad',
-    'contact.form.email': 'E-posta Adresi',
-    'contact.form.phone': 'Telefon',
+    'contact.form.name': 'Adınız Soyadınız',
+    'contact.form.email': 'E-posta Adresiniz',
+    'contact.form.phone': 'Telefon Numaranız',
     'contact.form.message': 'Mesajınız',
     'contact.form.submit': 'Gönder',
-    
-    // Footer
-    'footer.rights': 'Tüm hakları saklıdır.',
+    'contact.form.success': 'Mesajınız başarıyla gönderildi!',
   },
   en: {
     // Navigation
-    'nav.about': 'About Us',
+    'nav.home': 'Home',
     'nav.features': 'Features',
     'nav.modules': 'Modules',
     'nav.reports': 'Reports',
-    'nav.videos': 'Videos',
-    'nav.blog': 'Blog',
     'nav.contact': 'Contact',
+    'nav.demo': 'Request Demo',
     'nav.requestDemo': 'Request Demo',
-    'nav.getStarted': 'Get Started',
-    
-    // Hero
-    'hero.title': 'Digital Transformation in Sock Manufacturing',
-    'hero.subtitle': 'Wintex Sock Production Planning and Tracking System',
+    'nav.about': 'About Us',
+    'nav.videos': 'Videos',
+    'nav.journey': 'Digital Journey',
+
+    // Hero Section
+    'hero.badge': 'Wintex Sock v2.0',
+    'hero.title': 'Digital Transformation in Sock Production',
+    'hero.desc': 'Manage all your sock production processes from yarn to shipment on a single platform. Increase efficiency, reduce costs.',
     'hero.description': 'Manage all your sock production processes from yarn to shipment on a single platform. Increase efficiency, reduce costs.',
+    'hero.cta': 'Get Started',
     'hero.cta.primary': 'Get Started',
-    'hero.cta.secondary': 'Detailed Info',
-    
-    // Journey
-    'journey.title': 'Journey of a Sock: From Yarn to Shipment',
-    'journey.description': 'Take control of every stage of your production with Wintex.',
-    
-    // Why Wintex
-    'why.title': 'Why Wintex Socks?',
-    'why.description': 'Powerful features developed specifically for sock production.',
-    
-    // Modules
-    'modules.title': 'Comprehensive Module Structure',
-    'modules.viewAll': 'View All Modules',
-    'modules.explore': 'Explore',
-    
-    'module.sample.title': 'Sample & Model Room',
-    'module.sample.desc': 'Accelerate sample processes, reduce costs.',
-    
-    'module.planning.title': 'Planning & Purchasing',
-    'module.planning.desc': 'Automatically calculate yarn requirements, optimize inventory.',
-    
-    'module.production.title': 'Production Tracking',
-    'module.production.desc': 'Monitor knitting machines instantly, increase efficiency.',
-    
-    'module.costing.title': 'Cost Analysis',
-    'module.costing.desc': 'See actual costs instantly, manage profitability.',
-    
-    'module.warehouse.title': 'Warehouse & Inventory',
-    'module.warehouse.desc': 'Prevent losses with barcode tracking, increase inventory accuracy.',
-    
-    'module.shipment.title': 'Shipment & Logistics',
-    'module.shipment.desc': 'Prevent incorrect shipments, guarantee customer satisfaction.',
-    
-    // Reports
-    'reports.title': 'Powerful Reporting Infrastructure',
-    'reports.viewAll': 'View All Reports',
-    
-    'report.cost.title': 'Actual Cost Analysis',
-    'report.cost.desc': 'Compare planned and actual costs item by item.',
-    
-    'report.performance.title': 'Supplier Performance Scorecard',
-    'report.performance.desc': 'Evaluate your suppliers based on quality and deadline performance.',
-    
-    'report.shipment.title': 'Visual Shipment Planning',
-    'report.shipment.desc': 'Plan your orders with model images.',
-    
-    // FAQ
-    'faq.title': 'Frequently Asked Questions',
-    
-    // CTA
-    'cta.title': 'Ready to Digitize Your Production Processes?',
+    'hero.learn_more': 'Learn More',
+    'hero.cta.secondary': 'Learn More',
+    'hero.stat1': '30% Efficiency Increase',
+    'hero.stat2': '100% Inventory Accuracy',
+
+    // Modules Section
+    'modules.title': 'Comprehensive Modules',
+    'modules.subtitle': 'Customized solutions for every stage of your production',
+    'modules.sample': 'Sample Management',
+    'modules.sample.desc': 'Manage sample requests, recipes and costs from a single screen.',
+    'modules.planning': 'Production Planning',
+    'modules.planning.desc': 'Plan your machine park efficiently, prevent bottlenecks.',
+    'modules.production': 'Production Tracking',
+    'modules.production.desc': 'Instant production tracking and performance analysis with barcode system.',
+    'modules.inventory': 'Inventory Management',
+    'modules.inventory.desc': 'Manage yarn, accessory and finished goods stocks flawlessly.',
+    'modules.cost': 'Cost Analysis',
+    'modules.cost.desc': 'Increase your profitability with real-time cost tracking.',
+    'modules.quality': 'Quality Control',
+    'modules.quality.desc': 'Minimize production errors, maintain quality standards.',
+
+    // Reports Section
+    'reports.title': 'Advanced Reporting',
+    'reports.subtitle': 'Detailed reports enabling data-driven decisions',
+    'reports.view': 'View Report',
+    'reports.download': 'Download',
+
+    // Footer
+    'footer.desc': 'End-to-end production tracking and planning software developed for sock manufacturers.',
+    'footer.rights': 'All rights reserved.',
+
+    // CTA Section
+    'cta.title': 'Ready to Digitize Your Production?',
     'cta.desc': 'Increase your efficiency with Wintex Sock software, minimize errors.',
     'cta.demo': 'Request Free Demo',
     'cta.contact': 'Contact Us',
@@ -206,6 +197,28 @@ const translations = {
     'videos.subtitle': 'Discover the features and usage of Wintex Sock software with our videos.',
     'videos.watch': 'Watch',
     
+    // Digital Journey Page
+    'journey.title': 'Digital Journey of a Product',
+    'journey.subtitle': 'Textile Process Management from Idea to Customer with WinTex',
+    'journey.roadmap.title': 'Our Roadmap: An Integrated Process',
+    'journey.roadmap.desc': 'We track a product\'s lifecycle through four main digital milestones.',
+    'journey.step1.title': '1. Idea & Design',
+    'journey.step1.desc': 'Digitization of creativity.',
+    'journey.step2.title': '2. Cost & Supply',
+    'journey.step2.desc': 'Data-driven strategic decisions.',
+    'journey.step3.title': '3. Production & Quality',
+    'journey.step3.desc': 'Full control and transparency in the field.',
+    'journey.step4.title': '4. Packaging & Shipment',
+    'journey.step4.desc': 'Flawless operation and traceability.',
+    'journey.techsheet.title': 'Everything Starts with an Idea: Creating a Digital Technical Sheet',
+    'journey.techsheet.desc': 'After trend analysis and Product Management approval, the design department creates the Model Request Form (Technical Sheet) containing the entire DNA of the model on WinTex. This form becomes the single source of truth for the rest of the process.',
+    'journey.strategy.title': 'Strategic Crossroads: Subcontracting or Full Purchase?',
+    'journey.strategy.desc': 'After the Technical Sheet is completed, the Product Manager decides on the production strategy of the model. WinTex provides the infrastructure to make this decision based on data.',
+    'journey.production.title': 'Production and Quality Control',
+    'journey.production.desc': 'Machine planning is done with Gantt chart, production is monitored at every stage with barcode tracking system.',
+    'journey.shipping.title': 'Packaging and Shipment',
+    'journey.shipping.desc': 'Products pass final control, packing lists are created and shipment is planned.',
+
     // Contact Page
     'contact.title': 'Contact',
     'contact.subtitle': 'Reach out for your questions. Get information about textile ERP software and sock production tracking software.',
@@ -213,23 +226,22 @@ const translations = {
     'contact.info.title': 'Contact Information',
     'contact.info.person': 'Okan Sökmen',
     'contact.info.company': 'YaGe Software Development Computer',
+    'contact.info.address': 'Istanbul, Turkey',
     'contact.form.title': 'Write to Us',
-    'contact.form.name': 'Name',
-    'contact.form.email': 'Email address',
-    'contact.form.phone': 'Phone',
-    'contact.form.message': 'Message',
-    'contact.form.submit': 'Contact Us',
-    
-    // Footer
-    'footer.rights': 'All rights reserved.',
+    'contact.form.name': 'Your Name',
+    'contact.form.email': 'Your Email',
+    'contact.form.phone': 'Your Phone Number',
+    'contact.form.message': 'Your Message',
+    'contact.form.submit': 'Send',
+    'contact.form.success': 'Your message has been sent successfully!',
   }
 };
 
 export const useI18n = create<I18nState>((set, get) => ({
   language: 'tr',
-  setLanguage: (lang: Language) => set({ language: lang }),
-  t: (key: string) => {
+  setLanguage: (lang) => set({ language: lang }),
+  t: (key) => {
     const lang = get().language;
     return translations[lang][key as keyof typeof translations['tr']] || key;
-  }
+  },
 }));

@@ -6,6 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import DigitalJourney from "./pages/DigitalJourney";
 import Home from "./pages/Home";
 import Videos from "./pages/Videos";
 
@@ -15,6 +16,7 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/about"} component={About} />
+      <Route path={"/digital-journey"} component={DigitalJourney} />
       <Route path={"/contact"} component={Contact} />
       <Route path={"/videos"} component={Videos} />
       <Route path={"/404"} component={NotFound} />

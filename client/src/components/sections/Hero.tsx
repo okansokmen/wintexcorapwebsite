@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/lib/i18n";
 import { ArrowRight, PlayCircle } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Hero() {
   const { t } = useI18n();
@@ -30,10 +31,12 @@ export default function Hero() {
                 {t('hero.cta.primary')}
                 <ArrowRight className="h-4 w-4" />
               </Button>
-              <Button size="lg" variant="outline" className="gap-2">
-                <PlayCircle className="h-4 w-4" />
-                {t('hero.cta.secondary')}
-              </Button>
+              <Link href="/digital-journey">
+                <Button size="lg" variant="outline" className="gap-2">
+                  <PlayCircle className="h-4 w-4" />
+                  {t('hero.cta.secondary')}
+                </Button>
+              </Link>
             </div>
             
             <div className="pt-8 flex items-center gap-8 text-sm text-muted-foreground">
