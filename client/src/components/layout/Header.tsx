@@ -96,7 +96,9 @@ export default function Header() {
             <span className="sr-only">Toggle Theme</span>
           </Button>
           
-          <Button>{t('nav.requestDemo')}</Button>
+          <Button onClick={() => window.location.href = 'mailto:okansokmen@gmail.com?subject=Wintex%20%C3%87orap%20Demo%20Talebi'}>
+            {t('nav.requestDemo')}
+          </Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -144,7 +146,9 @@ export default function Header() {
               {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
             </Button>
           </div>
-          <Button className="w-full">{t('nav.requestDemo')}</Button>
+          <Button className="w-full" onClick={() => window.location.href = 'mailto:okansokmen@gmail.com?subject=Wintex%20%C3%87orap%20Demo%20Talebi'}>
+            {t('nav.requestDemo')}
+          </Button>
         </div>
       )}
     </header>

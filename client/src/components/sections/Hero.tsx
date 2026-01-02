@@ -27,7 +27,7 @@ export default function Hero() {
               {t('hero.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="gap-2">
+              <Button size="lg" className="gap-2" onClick={() => window.location.href = 'mailto:okansokmen@gmail.com?subject=Wintex%20%C3%87orap%20Bilgi%20Talebi'}>
                 {t('hero.cta.primary')}
                 <ArrowRight className="h-4 w-4" />
               </Button>

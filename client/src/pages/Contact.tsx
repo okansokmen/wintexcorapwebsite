@@ -92,12 +92,23 @@ export default function Contact() {
                 <CardTitle>{t('contact.form.title')}</CardTitle>
               </CardHeader>
               <CardContent>
-                <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+                <form className="space-y-4" onSubmit={(e) => {
+                  e.preventDefault();
+                  const name = (document.getElementById('name') as HTMLInputElement).value;
+                  const email = (document.getElementById('email') as HTMLInputElement).value;
+                  const phone = (document.getElementById('phone') as HTMLInputElement).value;
+                  const message = (document.getElementById('message') as HTMLTextAreaElement).value;
+                  
+                  const subject = `Wintex Çorap İletişim Formu: ${name}`;
+                  const body = `Ad Soyad: ${name}%0D%0AE-posta: ${email}%0D%0ATelefon: ${phone}%0D%0A%0D%0AMesaj:%0D%0A${message}`;
+                  
+                  window.location.href = `mailto:okansokmen@gmail.com?subject=${subject}&body=${body}`;
+                }}>
                   <div className="space-y-2">
                     <label htmlFor="name" className="text-sm font-medium">
                       {t('contact.form.name')}
                     </label>
-                    <Input id="name" placeholder={t('contact.form.name')} />
+                    <Input id="name" required placeholder={t('contact.form.name')} />
                   </div>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -105,7 +116,7 @@ export default function Contact() {
                       <label htmlFor="email" className="text-sm font-medium">
                         {t('contact.form.email')}
                       </label>
-                      <Input id="email" type="email" placeholder={t('contact.form.email')} />
+                      <Input id="email" type="email" required placeholder={t('contact.form.email')} />
                     </div>
                     <div className="space-y-2">
                       <label htmlFor="phone" className="text-sm font-medium">
@@ -121,6 +132,7 @@ export default function Contact() {
                     </label>
                     <Textarea 
                       id="message" 
+                      required
                       placeholder={t('contact.form.message')} 
                       className="min-h-[120px]"
                     />
