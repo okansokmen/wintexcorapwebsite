@@ -8,19 +8,19 @@ import { ZoomIn } from 'lucide-react';
 
 // Rapor listesi ve kategorileri
 const reports = [
-  { id: 1, title: 'Aksesuar Satınalma Kılavuzu', category: 'stock', image: '/reports/Aksesuar Satınalma Kılavuzu.jpg' },
-  { id: 2, title: 'Aylık İplik Envanteri', category: 'stock', image: '/reports/AYLIK IPLIK ENVANTERI.jpg' },
-  { id: 3, title: 'Barkodlu Koli Etiketi', category: 'production', image: '/reports/BarkodluDahiliKoliustu7x7Etiket.jpg' },
-  { id: 4, title: 'Günlük Numune Girişleri', category: 'production', image: '/reports/Bugün Girilmiş Numuneler.jpg' },
-  { id: 5, title: 'Ön Maliyet Analizi', category: 'cost', image: '/reports/Darinda On Maliyet DAMA0545.jpg' },
-  { id: 6, title: 'Aksesuar Eksik Listesi', category: 'stock', image: '/reports/Darinda-Aksesuarları Eksik ÇÖSler.jpg' },
-  { id: 7, title: 'Günlük Üretim Hareketleri', category: 'production', image: '/reports/Darinda-Günlük Üretim Hareketleri.jpg' },
-  { id: 8, title: 'Üretim Refakat Etiketi', category: 'production', image: '/reports/DarindaUretimRefakatEtiketiResimliRotali.jpg' },
-  { id: 9, title: 'Dün Örülmüş Siparişler', category: 'production', image: '/reports/Dun Orulmus Siparisler.jpg' },
-  { id: 10, title: 'Gecikmiş Aksesuar İşemirleri', category: 'planning', image: '/reports/Gecikmiş Aksesuar Satınalma İşemirleri.jpg' },
-  { id: 11, title: 'Gecikmiş İplik İşemirleri', category: 'planning', image: '/reports/Gecikmiş Iplik Satınalma İşemirleri.jpg' },
-  { id: 12, title: 'Günlük Fason Takip', category: 'production', image: '/reports/Günlük Fason Takip.jpg' },
-  { id: 13, title: 'Günlük Stok Hareketleri', category: 'stock', image: '/reports/Günlük Stok Hareketleri.jpg' },
+  { id: 1, title: 'Aksesuar Satınalma Kılavuzu', category: 'stock', image: '/reports/aksesuar-satinalma.jpg' },
+  { id: 2, title: 'Aylık İplik Envanteri', category: 'stock', image: '/reports/aylik-iplik-envanteri.jpg' },
+  { id: 3, title: 'Barkodlu Koli Etiketi', category: 'production', image: '/reports/barkodlu-koli-etiketi.jpg' },
+  { id: 4, title: 'Günlük Numune Girişleri', category: 'production', image: '/reports/gunluk-numune.jpg' },
+  { id: 5, title: 'Ön Maliyet Analizi', category: 'cost', image: '/reports/on-maliyet.jpg' },
+  { id: 6, title: 'Aksesuar Eksik Listesi', category: 'stock', image: '/reports/aksesuar-eksik.jpg' },
+  { id: 7, title: 'Günlük Üretim Hareketleri', category: 'production', image: '/reports/gunluk-uretim.jpg' },
+  { id: 8, title: 'Üretim Refakat Etiketi', category: 'production', image: '/reports/uretim-refakat.jpg' },
+  { id: 9, title: 'Dün Örülmüş Siparişler', category: 'production', image: '/reports/dun-orulmus-siparisler.jpg' },
+  { id: 10, title: 'Gecikmiş Aksesuar İşemirleri', category: 'planning', image: '/reports/gecikmis-aksesuar.jpg' },
+  { id: 11, title: 'Gecikmiş İplik İşemirleri', category: 'planning', image: '/reports/gecikmis-iplik.jpg' },
+  { id: 12, title: 'Günlük Fason Takip', category: 'production', image: '/reports/gunluk-fason.jpg' },
+  { id: 13, title: 'Günlük Stok Hareketleri', category: 'stock', image: '/reports/gunluk-stok.jpg' },
 ];
 
 export default function ReportsPage() {
