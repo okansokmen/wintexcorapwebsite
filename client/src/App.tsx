@@ -20,7 +20,7 @@ function Router() {
       <Route path={"/digital-journey"} component={DigitalJourney} />
       <Route path={"/contact"} component={Contact} />
       <Route path={"/videos"} component={Videos} />
-      <Route path={"/reports"} component={ReportsPage} />
+      <Route path="/reports" component={ReportsPage} />
       {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>

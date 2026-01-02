@@ -1,0 +1,4 @@
+- [ ] Ana sayfa altındaki link isimlerinin (scrambled text) düzeltilmesi (i18n kontrolü)
+- [ ] Rapor önizleme görsellerinin görünmemesi sorununun giderilmesi (dosya yolları ve varlığı kontrolü)
+- [ ] Kapsamlı modüller bölümündeki karışık isimlerin ve linklerin düzeltilmesi
+- [ ] Videoların donma sorununun giderilmesi (oynatıcı ve format kontrolü)

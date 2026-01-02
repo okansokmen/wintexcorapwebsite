@@ -9,43 +9,43 @@ export default function Modules() {
   const modules = [
     {
       icon: Palette,
-      title: 'module.sample.title',
-      desc: 'module.sample.desc',
+      title: 'modules.sample',
+      desc: 'modules.sample.desc',
       color: 'text-pink-500',
       bg: 'bg-pink-500/10'
     },
     {
       icon: Calculator,
-      title: 'module.planning.title',
-      desc: 'module.planning.desc',
+      title: 'modules.planning',
+      desc: 'modules.planning.desc',
       color: 'text-blue-500',
       bg: 'bg-blue-500/10'
     },
     {
       icon: Factory,
-      title: 'module.production.title',
-      desc: 'module.production.desc',
+      title: 'modules.production',
+      desc: 'modules.production.desc',
       color: 'text-orange-500',
       bg: 'bg-orange-500/10'
     },
     {
       icon: BarChart3,
-      title: 'module.costing.title',
-      desc: 'module.costing.desc',
+      title: 'modules.cost',
+      desc: 'modules.cost.desc',
       color: 'text-green-500',
       bg: 'bg-green-500/10'
     },
     {
       icon: Box,
-      title: 'module.warehouse.title',
-      desc: 'module.warehouse.desc',
+      title: 'modules.inventory',
+      desc: 'modules.inventory.desc',
       color: 'text-purple-500',
       bg: 'bg-purple-500/10'
     },
     {
       icon: Truck,
-      title: 'module.shipment.title',
-      desc: 'module.shipment.desc',
+      title: 'modules.quality',
+      desc: 'modules.quality.desc',
       color: 'text-indigo-500',
       bg: 'bg-indigo-500/10'
     }
@@ -57,7 +57,7 @@ export default function Modules() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold tracking-tight mb-4">{t('modules.title')}</h2>
           <p className="text-muted-foreground text-lg">
-            {t('why.description')}
+            {t('modules.subtitle')}
           </p>
         </div>
 
@@ -77,7 +77,7 @@ export default function Modules() {
               </CardContent>
               <CardFooter>
                 <Button variant="ghost" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                  {t('modules.explore')}
+                  {t('hero.learn_more')}
                 </Button>
               </CardFooter>
             </Card>
@@ -86,7 +86,7 @@ export default function Modules() {
         
         <div className="mt-12 text-center">
           <Button size="lg" variant="outline">
-            {t('modules.viewAll')}
+            {t('hero.learn_more')}
           </Button>
         </div>
       </div>

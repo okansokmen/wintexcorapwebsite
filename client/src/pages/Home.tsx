@@ -24,7 +24,7 @@ export default function Home() {
             <div className="text-center max-w-3xl mx-auto mb-16">
               <h2 className="text-3xl font-bold tracking-tight mb-4">{t('journey.title')}</h2>
               <p className="text-muted-foreground text-lg">
-                {t('journey.description')}
+                {t('journey.subtitle')}
               </p>
             </div>
             
