@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useI18n } from "@/lib/i18n";
-import { ArrowLeft, Mail, MapPin, Phone, User } from "lucide-react";
+import { ArrowLeft, Mail, MapPin, Phone, User, MessageCircle } from "lucide-react";
 import { Link } from "wouter";
 
 export default function Contact() {
@@ -58,6 +58,23 @@ export default function Contact() {
                     <h3 className="font-medium">Mobile</h3>
                     <a href="tel:+905425343855" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                       +90 542 534 38 55
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="h-10 w-10 rounded-lg bg-[#25D366]/10 text-[#25D366] flex items-center justify-center shrink-0">
+                    <MessageCircle className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h3 className="font-medium">WhatsApp</h3>
+                    <a 
+                      href="https://wa.me/905425343855?text=Merhaba,%20Wintex%20%C3%87orap%20yaz%C4%B1l%C4%B1m%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      WhatsApp ile Mesaj Gönder
                     </a>
                   </div>
                 </div>
