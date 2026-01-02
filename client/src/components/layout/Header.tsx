@@ -39,7 +39,7 @@ export default function Header() {
     { key: 'nav.journey', href: '/digital-journey' },
     { key: 'nav.features', href: '/digital-journey' },
     { key: 'nav.modules', href: '#modules' },
-    { key: 'nav.reports', href: '#reports' },
+    { key: 'nav.reports', href: '/reports' },
     { key: 'nav.videos', href: '/videos' },
     { key: 'nav.contact', href: '/contact' },
   ];

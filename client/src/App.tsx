@@ -7,6 +7,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import DigitalJourney from "./pages/DigitalJourney";
+import ReportsPage from "./pages/ReportsPage";
 import Home from "./pages/Home";
 import Videos from "./pages/Videos";
 
@@ -19,7 +20,7 @@ function Router() {
       <Route path={"/digital-journey"} component={DigitalJourney} />
       <Route path={"/contact"} component={Contact} />
       <Route path={"/videos"} component={Videos} />
-      <Route path={"/404"} component={NotFound} />
+      <Route path={"/reports"} component={ReportsPage} />
       {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>

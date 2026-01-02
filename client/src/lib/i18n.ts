@@ -18,7 +18,6 @@ const translations = {
     'nav.contact': 'İletişim',
     'nav.faq': 'SSS',
     'nav.demo': 'Demo İste',
-    'nav.requestDemo': 'Demo İste',
     'nav.about': 'Hakkımızda',
     'nav.videos': 'Videolar',
     'nav.journey': 'Dijital Yolculuk',
@@ -27,11 +26,8 @@ const translations = {
     'hero.badge': 'Wintex Çorap v2.0',
     'hero.title': 'Çorap Üretiminde Dijital Dönüşüm',
     'hero.desc': 'İplikten sevkiyata, tüm çorap üretim süreçlerinizi tek bir platformda yönetin. Verimliliği artırın, maliyetleri düşürün.',
-    'hero.description': 'İplikten sevkiyata, tüm çorap üretim süreçlerinizi tek bir platformda yönetin. Verimliliği artırın, maliyetleri düşürün.',
     'hero.cta': 'Hemen Başlayın',
-    'hero.cta.primary': 'Hemen Başlayın',
     'hero.learn_more': 'Detaylı Bilgi',
-    'hero.cta.secondary': 'Detaylı Bilgi',
     'hero.stat1': '%30 Verimlilik Artışı',
     'hero.stat2': '%100 Stok Doğruluğu',
 
@@ -148,6 +144,16 @@ const translations = {
     'faq.a4': 'Firmanızın büyüklüğüne bağlı olarak kurulum ve temel eğitim süreci genellikle 2-4 hafta içinde tamamlanır. Uzman ekibimiz yerinde ve uzaktan destek sağlar.',
     'faq.q5': 'Program fason üretim takibi için uygun mu?',
     'faq.a5': 'Kesinlikle. Fasona giden ve gelen ürünleri takip edebilir, fason yerindeki stokları yönetebilir ve fire oranlarını izleyebilirsiniz.',
+
+    // Reports Page
+    'reports.page.title': 'Detaylı Raporlar',
+    'reports.page.subtitle': 'Wintex Çorap ile alabileceğiniz yüzlerce rapordan seçilmiş örnekler.',
+    'reports.category.all': 'Tümü',
+    'reports.category.production': 'Üretim',
+    'reports.category.stock': 'Stok',
+    'reports.category.cost': 'Maliyet',
+    'reports.category.planning': 'Planlama',
+    'reports.modal.close': 'Kapat',
   },
   en: {
     // Navigation
@@ -158,7 +164,6 @@ const translations = {
     'nav.contact': 'Contact',
     'nav.faq': 'FAQ',
     'nav.demo': 'Request Demo',
-    'nav.requestDemo': 'Request Demo',
     'nav.about': 'About Us',
     'nav.videos': 'Videos',
     'nav.journey': 'Digital Journey',
@@ -167,11 +172,8 @@ const translations = {
     'hero.badge': 'Wintex Sock v2.0',
     'hero.title': 'Digital Transformation in Sock Production',
     'hero.desc': 'Manage all your sock production processes from yarn to shipment on a single platform. Increase efficiency, reduce costs.',
-    'hero.description': 'Manage all your sock production processes from yarn to shipment on a single platform. Increase efficiency, reduce costs.',
     'hero.cta': 'Get Started',
-    'hero.cta.primary': 'Get Started',
     'hero.learn_more': 'Learn More',
-    'hero.cta.secondary': 'Learn More',
     'hero.stat1': '30% Efficiency Increase',
     'hero.stat2': '100% Inventory Accuracy',
 
@@ -203,22 +205,22 @@ const translations = {
 
     // CTA Section
     'cta.title': 'Ready to Digitize Your Production?',
-    'cta.desc': 'Increase your efficiency with Wintex Sock software, minimize errors.',
+    'cta.desc': 'Increase your efficiency and minimize errors with Wintex Sock software.',
     'cta.demo': 'Request Free Demo',
     'cta.contact': 'Contact Us',
     
     // About Page
     'about.title': 'About Us',
     'about.subtitle': 'WinTex Production, Planning and Tracking Program',
-    'about.intro': 'WinTex covers the entire production lifecycle, starting from design and sample requests to costing differences in purchasing and subcontracting processes, production planning and tracking, barcode-based inventory, and quality control systems.',
+    'about.intro': 'WinTex covers the entire production lifecycle, starting from design and sample requests, to costing differences in purchasing and subcontracting processes, production planning and tracking, barcode-based inventory and quality control systems.',
     'about.system.title': 'WinTex Production Planning and Tracking System',
-    'about.system.desc': 'WinTex is an integrated planning and tracking system designed for sock and textile production, covering all processes from sample request to final shipment. The system aims to increase operational efficiency by using modern technologies such as barcode tracking, mobile integration, and detailed reporting.',
+    'about.system.desc': 'WinTex is an integrated planning and tracking system designed for sock and textile production, covering all processes from sample request to final shipment. The system aims to increase operational efficiency by using modern technologies such as barcode tracking, mobile integration and detailed reporting.',
     'about.capabilities.title': 'General Capabilities and Technologies of the System',
     'about.capabilities.desc': 'WinTex offers an end-to-end solution with its modular structure and wide range of functions.',
     'about.capabilities.core': 'Core Capabilities',
     'about.capabilities.tech': 'Technologies Used',
     'about.flow.title': 'Flow Chart and Relationship Between Modules',
-    'about.flow.desc': 'The WinTex system connects the steps in the production process within a logical flow chart.',
+    'about.flow.desc': 'WinTex system connects the steps in the production process within a logical flow chart.',
     
     // Videos Page
     'videos.title': 'Promotional Videos',
@@ -226,42 +228,42 @@ const translations = {
     'videos.watch': 'Watch',
     
     // Digital Journey Page
-    'journey.title': 'Digital Journey of a Product',
+    'journey.title': 'A Product\'s Digital Journey',
     'journey.subtitle': 'Textile Process Management from Idea to Customer with WinTex',
     'journey.roadmap.title': 'Our Roadmap: An Integrated Process',
     'journey.roadmap.desc': 'We track a product\'s lifecycle through four main digital milestones.',
     'journey.step1.title': '1. Idea & Design',
     'journey.step1.desc': 'Digitization of creativity.',
-    'journey.step2.title': '2. Cost & Supply',
+    'journey.step2.title': '2. Cost & Procurement',
     'journey.step2.desc': 'Data-driven strategic decisions.',
     'journey.step3.title': '3. Production & Quality',
     'journey.step3.desc': 'Full control and transparency in the field.',
     'journey.step4.title': '4. Packaging & Shipment',
     'journey.step4.desc': 'Flawless operation and traceability.',
-
+    
     // Journey Modals
     'journey.modal.close': 'Close',
     'journey.modal.step1.title': 'Idea and Design Process',
-    'journey.modal.step1.content': 'The design team transforms ideas emerging from trend analysis and market research into technical sheets in a digital environment. At this stage, yarn types, color variants, knitting techniques, and size charts are determined. The created technical sheet becomes the reference point for the entire production process.',
-    'journey.modal.step2.title': 'Cost and Supply Management',
-    'journey.modal.step2.content': 'Automatic cost calculations are made using technical sheet data. Yarn consumption, labor costs, and overheads are analyzed. It is decided whether production will be done in-house or subcontracted, and necessary raw material orders are automatically created.',
+    'journey.modal.step1.content': 'The design team transforms ideas emerging from trend analysis and market research into technical sheets in a digital environment. At this stage, yarn types, color variants, knitting techniques and size charts are determined. The created technical sheet becomes the reference point for the entire production process.',
+    'journey.modal.step2.title': 'Cost and Procurement Management',
+    'journey.modal.step2.content': 'Automatic cost calculations are made using technical sheet data. Yarn consumption, labor costs and general production expenses are analyzed. It is decided whether production will be done in-house or outsourced, and necessary raw material orders are automatically created.',
     'journey.modal.step3.title': 'Production and Quality Control',
-    'journey.modal.step3.content': 'The machine park is optimized with the production planning module. Thanks to the barcode tracking system, it is recorded on which machine, by which operator, and when each pair of socks was produced. Inspections made at quality control stations are instantly processed into the system.',
+    'journey.modal.step3.content': 'Machine park is optimized with the production planning module. Thanks to the barcode tracking system, which machine, which operator and when each pair of socks was produced is recorded. Inspections made at quality control stations are instantly processed into the system.',
     'journey.modal.step4.title': 'Packaging and Shipment',
-    'journey.modal.step4.content': 'Finished products are packaged and boxed according to customer orders. Packing lists are automatically created and shipment planning is done. Customer-specific labeling and packaging instructions are tracked through the system.',
+    'journey.modal.step4.content': 'Completed products are packaged and boxed according to customer orders. Packing lists are automatically created and shipment planning is done. Customer-specific labeling and packaging instructions are tracked through the system.',
 
     'journey.techsheet.title': 'Everything Starts with an Idea: Creating a Digital Technical Sheet',
     'journey.techsheet.desc': 'After trend analysis and Product Management approval, the design department creates the Model Request Form (Technical Sheet) containing the entire DNA of the model on WinTex. This form becomes the single source of truth for the rest of the process.',
-    'journey.strategy.title': 'Strategic Crossroads: Subcontracting or Full Purchase?',
+    'journey.strategy.title': 'Strategic Crossroads: Contract Manufacturing or Complete Purchase?',
     'journey.strategy.desc': 'After the Technical Sheet is completed, the Product Manager decides on the production strategy of the model. WinTex provides the infrastructure to make this decision based on data.',
     'journey.production.title': 'Production and Quality Control',
     'journey.production.desc': 'Machine planning is done with Gantt chart, production is monitored at every stage with barcode tracking system.',
     'journey.shipping.title': 'Packaging and Shipment',
-    'journey.shipping.desc': 'Products pass final control, packing lists are created and shipment is planned.',
+    'journey.shipping.desc': 'Products pass final inspection, packing lists are created and shipment is planned.',
 
     // Contact Page
     'contact.title': 'Contact',
-    'contact.subtitle': 'Reach out for your questions. Get information about textile ERP software and sock production tracking software.',
+    'contact.subtitle': 'Contact us for your questions. Get information about textile ERP software and sock production tracking software.',
     'contact.back': 'Back to Home',
     'contact.info.title': 'Contact Information',
     'contact.info.person': 'Okan Sökmen',
@@ -269,7 +271,7 @@ const translations = {
     'contact.info.address': 'Istanbul, Turkey',
     'contact.form.title': 'Write to Us',
     'contact.form.name': 'Your Name',
-    'contact.form.email': 'Your Email',
+    'contact.form.email': 'Your Email Address',
     'contact.form.phone': 'Your Phone Number',
     'contact.form.message': 'Your Message',
     'contact.form.submit': 'Send',
@@ -277,17 +279,27 @@ const translations = {
 
     // FAQ
     'faq.title': 'Frequently Asked Questions',
-    'faq.subtitle': 'Everything you need to know about Wintex Socks',
+    'faq.subtitle': 'Everything you wonder about Wintex Sock',
     'faq.q1': 'Does the program support barcode tracking?',
-    'faq.a1': 'Yes, Wintex Socks provides full barcode support from raw material entry to product shipment. You can track all movements with barcode readers.',
+    'faq.a1': 'Yes, Wintex Sock offers full barcode support from raw material entry to product shipment. You can track all movements with handheld terminals or barcode readers.',
     'faq.q2': 'How is cost calculation done?',
-    'faq.a2': 'The system automatically calculates costs by taking into account raw material prices, labor, overheads, and exchange rates. It offers dynamic costing with recipe-based calculation.',
-    'faq.q3': 'Does it integrate with accounting software?',
-    'faq.a3': 'Yes, Wintex can integrate with popular accounting software (Logo, Mikro, Netsis, etc.). Invoices and current account movements are transferred automatically.',
+    'faq.a2': 'The system automatically calculates costs by taking into account raw material prices, labor, overheads and exchange rates. It offers dynamic costing with recipe-based calculation.',
+    'faq.q3': 'Does it work integrated with accounting programs?',
+    'faq.a3': 'Yes, Wintex can integrate with popular accounting software (Logo, Mikro, Netsis etc.). Invoices and current account movements are transferred automatically.',
     'faq.q4': 'How long does the installation and training process take?',
     'faq.a4': 'Depending on the size of your company, the installation and basic training process is usually completed within 2-4 weeks. Our expert team provides on-site and remote support.',
-    'faq.q5': 'Is the program suitable for contract manufacturing?',
-    'faq.a5': 'Absolutely. You can track products sent to and received from contract manufacturers, manage stock at contract locations, and monitor waste rates.',
+    'faq.q5': 'Is the program suitable for contract manufacturing tracking?',
+    'faq.a5': 'Absolutely. You can track products going to and coming from subcontractors, manage stocks at the subcontractor site and monitor waste rates.',
+
+    // Reports Page
+    'reports.page.title': 'Detailed Reports',
+    'reports.page.subtitle': 'Selected examples from hundreds of reports you can get with Wintex Sock.',
+    'reports.category.all': 'All',
+    'reports.category.production': 'Production',
+    'reports.category.stock': 'Stock',
+    'reports.category.cost': 'Cost',
+    'reports.category.planning': 'Planning',
+    'reports.modal.close': 'Close',
   }
 };
 
