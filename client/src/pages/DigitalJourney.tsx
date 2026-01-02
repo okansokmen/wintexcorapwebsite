@@ -1,10 +1,13 @@
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { useI18n } from "@/lib/i18n";
 import { ArrowRight, Box, FileText, GitMerge, Lightbulb, Settings, Truck } from "lucide-react";
+import { useState } from "react";
 
 export default function DigitalJourney() {
   const { t } = useI18n();
+  const [selectedStep, setSelectedStep] = useState<number | null>(null);
 
   const steps = [
     {
@@ -14,7 +17,9 @@ export default function DigitalJourney() {
       icon: Lightbulb,
       color: "text-yellow-500",
       bg: "bg-yellow-500/10",
-      border: "border-yellow-500/20"
+      border: "border-yellow-500/20",
+      modalTitle: t('journey.modal.step1.title'),
+      modalContent: t('journey.modal.step1.content')
     },
     {
       id: 2,
@@ -23,7 +28,9 @@ export default function DigitalJourney() {
       icon: GitMerge,
       color: "text-blue-500",
       bg: "bg-blue-500/10",
-      border: "border-blue-500/20"
+      border: "border-blue-500/20",
+      modalTitle: t('journey.modal.step2.title'),
+      modalContent: t('journey.modal.step2.content')
     },
     {
       id: 3,
@@ -32,7 +39,9 @@ export default function DigitalJourney() {
       icon: Settings,
       color: "text-cyan-500",
       bg: "bg-cyan-500/10",
-      border: "border-cyan-500/20"
+      border: "border-cyan-500/20",
+      modalTitle: t('journey.modal.step3.title'),
+      modalContent: t('journey.modal.step3.content')
     },
     {
       id: 4,
@@ -41,9 +50,13 @@ export default function DigitalJourney() {
       icon: Truck,
       color: "text-green-500",
       bg: "bg-green-500/10",
-      border: "border-green-500/20"
+      border: "border-green-500/20",
+      modalTitle: t('journey.modal.step4.title'),
+      modalContent: t('journey.modal.step4.content')
     }
   ];
+
+  const activeStep = steps.find(s => s.id === selectedStep);
 
   return (
     <div className="min-h-screen flex flex-col bg-background font-sans antialiased">
@@ -78,7 +91,11 @@ export default function DigitalJourney() {
             <div className="hidden md:block absolute top-12 left-0 right-0 h-0.5 bg-border -z-10" />
 
             {steps.map((step, index) => (
-              <div key={step.id} className="relative bg-card p-6 rounded-xl border border-border/50 shadow-sm hover:shadow-md transition-all group">
+              <div 
+                key={step.id} 
+                onClick={() => setSelectedStep(step.id)}
+                className="relative bg-card p-6 rounded-xl border border-border/50 shadow-sm hover:shadow-md transition-all group cursor-pointer hover:-translate-y-1"
+              >
                 <div className={`w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto ${step.bg} ${step.color} border ${step.border}`}>
                   <step.icon className="h-6 w-6" />
                 </div>
@@ -93,6 +110,20 @@ export default function DigitalJourney() {
             ))}
           </div>
         </section>
+
+        <Dialog open={!!selectedStep} onOpenChange={(open) => !open && setSelectedStep(null)}>
+          <DialogContent className="sm:max-w-[500px]">
+            <DialogHeader>
+              <div className={`w-12 h-12 rounded-full flex items-center justify-center mb-4 ${activeStep?.bg} ${activeStep?.color} border ${activeStep?.border}`}>
+                {activeStep && <activeStep.icon className="h-6 w-6" />}
+              </div>
+              <DialogTitle className="text-xl">{activeStep?.modalTitle}</DialogTitle>
+              <DialogDescription className="pt-4 text-base leading-relaxed">
+                {activeStep?.modalContent}
+              </DialogDescription>
+            </DialogHeader>
+          </DialogContent>
+        </Dialog>
 
         {/* Detailed Sections */}
         <div className="space-y-24 pb-24">

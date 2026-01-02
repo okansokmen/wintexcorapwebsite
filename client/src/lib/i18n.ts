@@ -97,6 +97,18 @@ const translations = {
     'journey.step3.desc': 'Sahada tam kontrol ve şeffaflık.',
     'journey.step4.title': '4. Paketleme & Sevkiyat',
     'journey.step4.desc': 'Kusursuz operasyon ve izlenebilirlik.',
+    
+    // Journey Modals
+    'journey.modal.close': 'Kapat',
+    'journey.modal.step1.title': 'Fikir ve Tasarım Süreci',
+    'journey.modal.step1.content': 'Tasarım ekibi, trend analizleri ve pazar araştırmaları sonucunda ortaya çıkan fikirleri dijital ortamda teknik föylere dönüştürür. Bu aşamada iplik türleri, renk varyantları, örgü teknikleri ve ölçü tabloları belirlenir. Oluşturulan teknik föy, tüm üretim sürecinin referans noktası olur.',
+    'journey.modal.step2.title': 'Maliyet ve Tedarik Yönetimi',
+    'journey.modal.step2.content': 'Teknik föy verileri kullanılarak otomatik maliyet hesaplamaları yapılır. İplik sarfiyatları, işçilik giderleri ve genel üretim giderleri analiz edilir. Üretimin şirket içinde mi yoksa fason olarak mı yapılacağına karar verilir ve gerekli hammadde siparişleri otomatik olarak oluşturulur.',
+    'journey.modal.step3.title': 'Üretim ve Kalite Kontrol',
+    'journey.modal.step3.content': 'Üretim planlama modülü ile makine parkuru optimize edilir. Barkodlu takip sistemi sayesinde her bir çorap çiftinin hangi makinede, hangi operatör tarafından ve ne zaman üretildiği kayıt altına alınır. Kalite kontrol istasyonlarında yapılan denetimler anlık olarak sisteme işlenir.',
+    'journey.modal.step4.title': 'Paketleme ve Sevkiyat',
+    'journey.modal.step4.content': 'Üretimi tamamlanan ürünler, müşteri siparişlerine göre paketlenir ve kolilenir. Çeki listeleri otomatik oluşturulur ve sevkiyat planlaması yapılır. Müşteriye özel etiketleme ve paketleme talimatları sistem üzerinden takip edilir.',
+
     'journey.techsheet.title': 'Her Şey Bir Fikirle Başlar: Dijital Teknik Föy Oluşturma',
     'journey.techsheet.desc': 'Tasarım bölümü, trend analizleri ve Ürün Yönetimi onayı sonrası, modelin tüm DNA\'sını içeren Model İstek Formu\'nu (Teknik Föy) WinTex üzerinde oluşturur. Bu form, sürecin geri kalanı için tek gerçeklik kaynağı haline gelir.',
     'journey.strategy.title': 'Stratejik Kavşak: Fason Üretim mi, Komple Satın Alma mı?',
@@ -210,6 +222,18 @@ const translations = {
     'journey.step3.desc': 'Full control and transparency in the field.',
     'journey.step4.title': '4. Packaging & Shipment',
     'journey.step4.desc': 'Flawless operation and traceability.',
+
+    // Journey Modals
+    'journey.modal.close': 'Close',
+    'journey.modal.step1.title': 'Idea and Design Process',
+    'journey.modal.step1.content': 'The design team transforms ideas emerging from trend analysis and market research into technical sheets in a digital environment. At this stage, yarn types, color variants, knitting techniques, and size charts are determined. The created technical sheet becomes the reference point for the entire production process.',
+    'journey.modal.step2.title': 'Cost and Supply Management',
+    'journey.modal.step2.content': 'Automatic cost calculations are made using technical sheet data. Yarn consumption, labor costs, and overheads are analyzed. It is decided whether production will be done in-house or subcontracted, and necessary raw material orders are automatically created.',
+    'journey.modal.step3.title': 'Production and Quality Control',
+    'journey.modal.step3.content': 'The machine park is optimized with the production planning module. Thanks to the barcode tracking system, it is recorded on which machine, by which operator, and when each pair of socks was produced. Inspections made at quality control stations are instantly processed into the system.',
+    'journey.modal.step4.title': 'Packaging and Shipment',
+    'journey.modal.step4.content': 'Finished products are packaged and boxed according to customer orders. Packing lists are automatically created and shipment planning is done. Customer-specific labeling and packaging instructions are tracked through the system.',
+
     'journey.techsheet.title': 'Everything Starts with an Idea: Creating a Digital Technical Sheet',
     'journey.techsheet.desc': 'After trend analysis and Product Management approval, the design department creates the Model Request Form (Technical Sheet) containing the entire DNA of the model on WinTex. This form becomes the single source of truth for the rest of the process.',
     'journey.strategy.title': 'Strategic Crossroads: Subcontracting or Full Purchase?',
