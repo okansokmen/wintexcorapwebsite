@@ -54,8 +54,8 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">{t('nav.contact')}</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>info@wintex.com</li>
-              <li>+90 212 555 00 00</li>
+              <li>okansokmen@gmail.com</li>
+              <li>+90 542 534 38 55</li>
               <li>İstanbul, Türkiye</li>
             </ul>
           </div>
